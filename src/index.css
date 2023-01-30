@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Header_Con {
+  display: flex; 
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.Header_Con img {
+  height: 50px;
+  width: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list item{
+  padding-inline: 10px;
+  text-align: center;
+  cursor: pointer; 
+}
