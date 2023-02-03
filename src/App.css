@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
+  display: flex;
+  color: black;
 }
 
 .App-logo {

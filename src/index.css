@@ -12,25 +12,64 @@ code {
     monospace;
 }
 
-.Header_Con {
-  display: flex; 
-  justify-content: space-evenly;
-  padding: 10px;
-}
-
-.Header_Con img {
-  height: 50px;
-  width: 50px;
-}
-
-.list {
+.leftContainer{
+  max-width: 25vw;
+  height: 100vh;
+  padding: 0;
+  background-color: black;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.list item{
-  padding-inline: 10px;
-  text-align: center;
-  cursor: pointer; 
+.dodumentContainer {
+  padding: 20px;
+  
+}
+
+.dodumentContainer h2  {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.dodumentContainer h2:hover{
+  cursor: pointer;
+}
+
+.tittleContainer{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.previewContainer img {
+  width: 500px;
+  height: 500px;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonMain{
+  min-width: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  color: black; 
+  font-size: calc(5px + 2vmin);
+  cursor: pointer;
+  border-radius: 10px;
 }
